@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    height: 100vh;
+    background: url(/img/pexels-laura-james-6101960.jpg.jpg) no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  
+    font-family: "Merriweather", serif;
+  }
+  h1 {
+    font-family: "Sacramento", cursive;
+    color: red;
+  }
+  .h2 {
+    font-family: "Montserrat", sans-serif;
+    color: red
+  }
+  .h3 {
+    font-family: "Montserrat", sans-serif;
+    color: red
+  }
+  p{
+    color: red;
+  }
+  
+  .baslik {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+  
+    font-size: 50px;
+    color: white;
+  }
+  .baslik p {
+    font-size: 35px;
+  }
+  .baranpp {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 15%;
+    border-width: 5px;
+    border-color: grey;
+  }
+  
+  .ana-bölüm {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .fotiksler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotiksler img {
+    margin: 15px;
+  }
+  
